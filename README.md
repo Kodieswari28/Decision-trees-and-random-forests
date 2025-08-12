@@ -1,6 +1,6 @@
 
-##Task 5 – Decision Tree & Random Forest Classifier (Heart Disease Prediction)
-##📌 Objective
+## Task 5 – Decision Tree & Random Forest Classifier (Heart Disease Prediction)
+## 📌 Objective
 The goal of this task is to:
 
 Train a Decision Tree Classifier and visualize it.
@@ -8,7 +8,7 @@ Analyze overfitting and control the tree depth.
 Train a Random Forest Classifier and compare it with Decision Tree.
 Interpret feature importances.
 Evaluate models using Cross-Validation.
-##📂 Dataset
+## 📂 Dataset
 Name: heart.csv
 Description: Contains patient medical details (age, cholesterol, etc.) and whether they have heart disease (target column: 1 = yes, 0 = no).
 🛠 Libraries Used
@@ -16,7 +16,7 @@ pandas → data handling
 numpy → numerical operations
 matplotlib → plotting graphs
 scikit-learn → machine learning models & evaluation
-##🚀 Steps Performed
+## 🚀 Steps Performed
 Step 0 – Load & Prepare Data
 Loaded the CSV using pandas.
 Split the data into:
@@ -44,11 +44,11 @@ Used Stratified 5-Fold Cross-Validation to evaluate both models.
 Printed mean accuracy and standard deviation for:
 Random Forest
 Pruned Decision Tree (best max_depth from Step 2)
-##📌 Key Insights
+## 📌 Key Insights
 Decision Tree can overfit if max_depth is too high.
 Random Forest usually performs better due to averaging multiple trees.
 Feature importance shows which health metrics are most useful for prediction.
-##📷 Outputs
+## 📷 Outputs
 Include screenshots of:
 
 Decision Tree visualization
